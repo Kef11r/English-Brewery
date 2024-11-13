@@ -503,6 +503,30 @@ footer {
         width: 90%;
     }
 
+    .pricing-section {
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px 0;
+    }
+
+    .price-card {
+        width: 90%;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .price-card h3 {
+        font-size: 20px;
+    }
+
+    .price-card p {
+        font-size: 16px;
+    }
+
+    .price-card .price {
+        font-size: 24px;
+    }
+
     .dropdown {
         display: flex;
     }
@@ -617,6 +641,28 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%); 
         width: 90%; 
+    }
+
+    .pricing-section {
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .price-card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .price-card h3 {
+        font-size: 18px;
+    }
+
+    .price-card p {
+        font-size: 14px;
+    }
+
+    .price-card .price {
+        font-size: 20px;
     }
 
     .footer-contact p {
